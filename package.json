@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/MinaRoll/photolab/issues"
   },
-  "homepage": "https://github.com/MinaRoll/photolab#readme"
+  "homepage": "https://github.com/MinaRoll/photolab#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1"
+  }
 }
