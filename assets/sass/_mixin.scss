@@ -1,0 +1,9 @@
+@mixin btn(){
+    margin-top: 3%;
+    border-radius: 5px;
+}
+@mixin padding(){
+    padding-left: 3%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
