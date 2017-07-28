@@ -18,7 +18,7 @@ nav .nav-menu {
     padding-top: 4%;
 }
 .container-fluid{
-    background-image: url(../assets/img/bg1.jpg);
+    background-image: url(../dist/img/bg1.jpg);
     width: 100%;
     background-size: cover;
     background-position: center; 
@@ -29,6 +29,18 @@ nav .nav-menu {
 header{
     margin-top: 15%;
     color: $white_color;
+}
+/* Segunda sección */
+.container-two{
+     @include padding();
+background-color: $whitesmoke_color;
+    h5{
+    color: $green_color;
+    text-transform: uppercase;
+    }
+    img{
+        height: 59vh;
+    }
 }
 
 
