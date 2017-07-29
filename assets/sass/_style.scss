@@ -31,6 +31,11 @@ header{
     margin-top: 15%;
     color: $white_color;
 }
+/* Boton 
+*/
+.waves-effect{
+     @include btn();
+}
 /* Segunda sección */
 .container-two{
      @include padding();
@@ -57,6 +62,19 @@ background-color: $whitesmoke_color;
     background-color: $whitesmoke_color;
    @include padding();
        text-align: center  
+}
+
+/* Footer */
+footer{
+    color: black;
+ @include padding();
+ a{
+     border-right: 1px solid $green_color;
+     padding-right: 10px;
+     color: black;
+     font-weight: bold;
+     text-transform: uppercase;
+ }
 }
 
 
