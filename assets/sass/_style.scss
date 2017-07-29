@@ -1,6 +1,7 @@
 /* Primera sección - Navbar */
 body{
     font-family: 'Raleway', sans-serif;
+    width: 100%;
 }
 nav{
     background-color: transparent;
@@ -11,20 +12,20 @@ nav{
 nav ul a {
     color: $white_color;
     padding-left: 25px;
-    padding-right: 46px;
+    padding-right: 44px;
 }
-nav .nav-menu {
+nav .nav-wrapper {
     margin-left: 29%;
     padding-top: 4%;
 }
-.container-fluid{
-    background-image: url(../dist/img/bg1.jpg);
+.container-one{
+    background-image: url(../assets/img/bg1.jpg);
     width: 100%;
     background-size: cover;
     background-position: center; 
     background-repeat: no-repeat;
     background-attachment: fixed;
-    height: 100vh;
+    height: 100px;
 }
 header{
     margin-top: 15%;
@@ -41,6 +42,21 @@ background-color: $whitesmoke_color;
     img{
         height: 59vh;
     }
+}
+/* Tercera sección */
+.container-three{
+    padding-left: 3%;
+    padding-top: 7%;
+ 
+    h4{
+        color: $green_color;
+    }
+}
+/* Cuarta sección */
+.container-four{
+    background-color: $whitesmoke_color;
+   @include padding();
+       text-align: center  
 }
 
 
