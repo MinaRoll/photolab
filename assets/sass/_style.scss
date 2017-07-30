@@ -19,7 +19,7 @@ nav .nav-wrapper {
     padding-top: 4%;
 }
 .container-one{
-    background-image: url(../assets/img/bg1.jpg);
+    background-image: url(../dist/img/bg1.jpg); /* No logro que aparezca la imagen. Cambié la carpeta a dist y aún así no la muestra */
     width: 100%;
     background-size: cover;
     background-position: center; 
@@ -31,8 +31,7 @@ header{
     margin-top: 15%;
     color: $white_color;
 }
-/* Boton 
-*/
+/* Botón */
 .waves-effect{
      @include btn();
 }
@@ -66,12 +65,12 @@ background-color: $whitesmoke_color;
 
 /* Footer */
 footer{
-    color: black;
+    color: $black_color;
  @include padding();
  a{
      border-right: 1px solid $green_color;
      padding-right: 10px;
-     color: black;
+     color: $black_color;
      font-weight: bold;
      text-transform: uppercase;
  }
